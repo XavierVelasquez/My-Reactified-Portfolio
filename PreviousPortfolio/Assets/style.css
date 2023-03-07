@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital@1&display=swap');
+
+:root { 
+    font-family: 'Space Mono', monospace;
+    --purple: #9a54f9;
+    --bubblegum-blue: #a8b3fb;
+    --vibrant-purple: #a8b3fb;
+    --lavender: #ab8ffb;
+    --hotpink: #dd54fa;
+    --deep-purple: #7255f6;
+    --font1: Arial, Helvetica, sans-serif;
+}
+
+* {    
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0; 
+}
+
+body {
+    background-color: var(--bubblegum-blue);
+    font-family: 'Space Mono', monospace;
+}
+
+header h1 {
+    padding: 20px;
+}
+
+header {
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--deep-purple);
+    background-color: var(--lavender);
+}
+
+.headerList {
+    display: flex; 
+    color: var(--deep-purple);
+}
+.headerList div {
+    padding: 20px;
+    font-size: 20px;
+} 
+
+.intro {
+    display: block;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: var(--deep-purple);
+    width: fit-content;
+    font-size: 45px;
+    outline: outset;
+}
+
+.header-image  {
+    display: flex;
+    height: 50px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("./images/lff-binary-code-header.jpeg");
+    background-size: cover;
+    background-position: center;
+} 
+
+.about-me {
+    margin: 20px;
+    padding:40px;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: var(--hotpink);
+    font-size: 30px;
+}
+
+#about {
+    
+}
+
+.about-me div {
+    width: 89%;
+    color: var(--hotpink);
+}
+
+.work-section {
+    color: var(--deep-purple);
+    font-size: 30px;
+    display: flex;
+    flex-direction: row;
+    padding: 40px;
+}
+
+.flex-item {
+    border: 5px solid var(--hotpink);
+    background-color: var(--lavender);
+    color: var(--deep-purple);
+    min-height: 400px;
+    min-width: 500px;
+    flex-basis: calc(50% - 1em);
+    display: flex;
+    align-items: flex-end;
+    padding: 0 0 20px 0;
+    margin: 0.5em;
+    text-decoration: none;
+    background-blend-mode: soft-light;
+    background-size: 150%;
+    transition: all 0.5s;
+    font-size: 0.9rem;
+} 
+
+.flex-container {
+    margin: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 150px;
+}
+
+.work-section {
+    margin-bottom: 20px;
+    padding: 50px;
+    color: var(--hotpink);
+    font-size: 25px;
+}
+
+.contact-me {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 200px;
+    color: var(--hotpink);
+    font-size: 25px;
+}
+
+.contactMe  {
+    font-size: 20px;
+}
+
+.contactMe div {
+   display: flex;
+} 
+
+.contactMe ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    flex: auto;
+}
+
+.contactMe ul li {
+    padding-left: 20;
+    padding-right: 20px;
+}
