@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/My-Reactified-Portfolio/static/css/main.74c4bfab.css",
+    "main.js": "/My-Reactified-Portfolio/static/js/main.faaedfd3.js",
+    "static/js/787.128fc6e9.chunk.js": "/My-Reactified-Portfolio/static/js/787.128fc6e9.chunk.js",
+    "static/media/proj3img.PNG": "/My-Reactified-Portfolio/static/media/proj3img.53aade8fd6089318cb7c.PNG",
+    "static/media/proj1img.PNG": "/My-Reactified-Portfolio/static/media/proj1img.dd53ef9bcf69cbf9f3ed.PNG",
+    "static/media/proj2img.PNG": "/My-Reactified-Portfolio/static/media/proj2img.c3f1771379ed613fcce2.PNG",
+    "index.html": "/My-Reactified-Portfolio/index.html",
+    "main.74c4bfab.css.map": "/My-Reactified-Portfolio/static/css/main.74c4bfab.css.map",
+    "main.faaedfd3.js.map": "/My-Reactified-Portfolio/static/js/main.faaedfd3.js.map",
+    "787.128fc6e9.chunk.js.map": "/My-Reactified-Portfolio/static/js/787.128fc6e9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.74c4bfab.css",
+    "static/js/main.faaedfd3.js"
+  ]
+}
