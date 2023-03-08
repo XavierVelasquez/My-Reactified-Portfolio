@@ -1,8 +1,8 @@
 import React from 'react';
-import './App.css';
-import proj1img from './images/proj1img.PNG';
-import proj2img from './images/proj2img.PNG';
-import proj3img from './images/proj3img.PNG';
+import './src/App.css';
+import proj1img from './src/images/proj1img.PNG';
+import proj2img from './src/images/proj2img.PNG';
+import proj3img from './src/images/proj3img.PNG';
 
 
 function App() {
