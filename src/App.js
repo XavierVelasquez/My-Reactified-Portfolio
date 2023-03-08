@@ -1,8 +1,8 @@
 import React from 'react';
-import './src/App.css';
-import proj1img from './src/images/proj1img.PNG';
-import proj2img from './src/images/proj2img.PNG';
-import proj3img from './src/images/proj3img.PNG';
+import './App.css';
+import proj1img from './images/proj1img.PNG';
+import proj2img from './images/proj2img.PNG';
+import proj3img from './images/proj3img.PNG';
 
 
 function App() {
@@ -46,14 +46,14 @@ function App() {
           <img className="project-img" src={proj3img} alt="Project 3" />
           <a href="https://github.com/Dantallope/BigBoiBudgeting">BigBoiBudgeting</a>
         </section>
-        <section class="header2">
+        <section className="header2">
     <footer id="contact-me" className="contact-me">
             <div>
                 <h2>
                     Contact Me
                 </h2>
             </div> 
-            <div id="contact"class="contactMe">
+            <div id="contact"className="contactMe">
                 <ul>
                     <li>(530)693-5137</li>
                     <li>xaviervelasquez2002@gmail.com</li>
